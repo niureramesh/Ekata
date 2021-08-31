@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Blogs page</title>
+  <link rel="stylesheet" href ="style.css">
+  <i class="fa fa-bars" onclick="showMenu()"></i>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+  
+  <section class = "sub-header">
+<nav class="navbar navbar-inverse">
+      <div class="nav-link" id="navLink">
+    <i class="fa fa-times-circle" onclick="hideMenu()" align = "left"></i>
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">School guide</a>
+    </div>
+    <ul class="nav navbar-nav" align = "center">
+     
+      <li class="active" ><a href="Website1.html">Home </a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Faculties <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Science</a></li>
+          <li><a href="#">Management</a></li>
+          <li><a href="#">Humanities</a></li>
+        </ul>
+      </li>
+      <li><a href="About.html">About </a></li>
+      <li><a href="Blogs.html">Blogs </a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Couese.html">Course</a></li>
+      
+    </ul>
+    <div class="nav navbar-nav navbar-right" align ="centre">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </div>
+  </nav>
+  <h1>Our Certificate and programmes</h1>
+</section>
+<!----Blogs Pagr contains-->
+<section class="blog">
+  <div class="row">
+    <div class="blog-left">
+      <img src="profile.jpg">
+      <h2>Our Certificate and programmes</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolor, doloremque eos sequi molestiae nostrum hic laboriosam deserunt corporis. Est magnam, dolorem excepturi possimus deserunt corporis alias amet. Pariatur, minus.</p>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, laboriosam a tenetur modi voluptatum fugit nobis quibusdam, quisquam ad omnis nihil corporis earum voluptas ipsum blanditiis incidunt vero commodi itaque.</p>
+      <br>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam exercitationem impedit architecto ipsa maiores aut pariatur accusantium debitis officia ut eos, officiis tempore vitae est illum maxime ad quia natus!</p>
+      <div class="comment-box">
+        <h3>Leave a comment</h3>
+        <form class="comment-form">
+          <input type="text" placeholder="Enter Name">
+          <input type="email" placeholder="Enter Email">
+          <textarea rows="5" placeholder="Your Comment"></textarea>
+          <button type="submit" class="hero-btn red-btn">Post comment</button>
+        </form>
+        
+      </div>
+    </div>
+    <div class="blog-right">
+    <h3> Post catogries</h3>
+    <br>
+    <div>
+      <span>Business Analytics</span>
+      <span>28</span>
+      <br>
+    </div>
+    <div>
+      <span>Data ....Science</span>
+      <span>22</span>
+      <br>
+    </div>
+    <div>
+      <span>Machine learning</span>
+      <span>21</span>
+      <br>
+    </div>
+    <div>
+      <span>Computer Science</span>
+      <span>28</span>
+      <br>
+    </div>
+  </div>
+  </div>
+
+</section>
+
+
+<section class="footer">
+  <h4>About us</h4>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt veniam <br>reprehenderit perspiciatis atque, libero, corporis iste incidunt velit natus commodi modi nam, consequatur delectus maxime accusamus praesentium ad unde odio!</p>
+  <div class ="icons">
+    <i class="fa fa-facebook-square"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  var navLink = document.getElementById("navLink");
+   function showMenu(){
+     navLink.style.right ="0";
+   }
+   function hideMenu(){
+     navLink.style.right ="-200px";
+   }
+</script>
+  
+
+
+</body>
+</html>

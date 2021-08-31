@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Contact page</title>
+  <link rel="stylesheet" href ="style.css">
+  <i class="fa fa-bars" onclick="showMenu()"></i>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+  
+  <section class = "sub-header">
+<nav class="navbar navbar-inverse">
+      <div class="nav-link" id="navLink">
+    <i class="fa fa-times-circle" onclick="hideMenu()" align = "left"></i>
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">School guide</a>
+    </div>
+    <ul class="nav navbar-nav" align = "center">
+     
+      <li class="active" ><a href="Website1.html">Home </a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Faculties <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Science</a></li>
+          <li><a href="#">Management</a></li>
+          <li><a href="#">Humanities</a></li>
+        </ul>
+      </li>
+      <li><a href="About.html">About </a></li>
+      <li><a href="Blogs.html">Blogs </a></li>
+      <li><a href="Contact.html">Contact</a></li>
+      <li><a href="Couese.html">Course</a></li>
+      
+    </ul>
+    <div class="nav navbar-nav navbar-right" align ="centre">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </div>
+  </nav>
+  <h1>Contact Us</h1>
+</section>
+<!----contact us-->
+<section class="location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3515.0053792090653!2d83.41963501455045!3d28.237516408600772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39960f0c172e408d%3A0x101250c35e9d538!2sEkata%20secondary%20boarding%20school!5e0!3m2!1sen!2snp!4v1628105102228!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+<section class="contact-us">
+  <div class="row">
+    <div class="contact-col">
+    <div>
+      <i class="fa fa-home"></i>
+      <span>
+        <h5>xyx Road, qwerty Buliding </h5>
+        <p>
+          Baglung, harichaur
+        </p>
+      </span>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <span>
+        <h5>+977 9869796087 </h5>
+        <p>
+          Sunday to friday, 10AM to 4PM
+        </p>
+      </span>
+    </div>
+    <div>
+      <i class="fa fa-envelope-o"></i>
+      <span>
+        <h5>niuredevelopr@gmail.com </h5>
+        <p>
+          Email us your query
+        </p>
+      </span>
+    </div>
+    </div>
+    <div class="contact-col">
+      <form action="foemangular.php">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <input type="text" name="subject" placeholder="Enter your subject" required>
+        <textarea rows="8" name="message" placeholder="Message" required ></textarea>
+        <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <h4>About us</h4>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt veniam <br>reprehenderit perspiciatis atque, libero, corporis iste incidunt velit natus commodi modi nam, consequatur delectus maxime accusamus praesentium ad unde odio!</p>
+  <div class ="icons">
+    <i class="fa fa-facebook-square"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  var navLink = document.getElementById("navLink");
+   function showMenu(){
+     navLink.style.right ="0";
+   }
+   function hideMenu(){
+     navLink.style.right ="-200px";
+   }
+</script>
+  
+
+
+</body>
+</html>
